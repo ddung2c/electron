@@ -1,0 +1,21 @@
+{
+  "name": "tutorial",
+  "version": "0.1.0",
+  "description": "A tutorial series for youtube",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "pack": "build --dir",  
+    "publish": ""
+  },
+  "build": {
+    "appId": "com.youtube.tutorial",
+    "productName": "Youtube Tutorial"
+  },
+  "author": "Doyeon Jung",
+  "license": "ISC",
+  "devDependencies": {
+    "asar": "^0.13.0",
+    "electron-packager": "^8.7.2"
+  }
+}
